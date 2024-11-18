@@ -293,3 +293,4 @@ console.log(coursesWithSass);
 // --написати пошук всіх об'єктів, в яких в modules є docker
 const coursesWithDocker = coursesArray.filter(course => course.modules.includes('docker'));
 console.log(coursesWithDocker);
+
