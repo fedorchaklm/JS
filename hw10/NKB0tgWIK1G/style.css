@@ -1,0 +1,36 @@
+.container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto 50px auto;
+}
+
+.btnsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+button {
+    padding: 10px 15px;
+}
+
+#next {
+    background-image: url("https://img.icons8.com/ios-glyphs/30/arrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#prev {
+    background-image: url("https://img.icons8.com/ios-glyphs/30/left.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hidden {
+    display: none;
+}
+

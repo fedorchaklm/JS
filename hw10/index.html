@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hw10</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <div class="wrap">
+        <h3>Зникнення елементу</h3>
+        <hr>
+        <p id="text">Hello world!</p>
+        <button id="removeBtn">Remove text</button>
+    </div>
+    <div class="wrap">
+        <h3>Перевірка віку, виведення повідомлення</h3>
+        <hr>
+        <label for="age">Enter your age</label>
+        <input type="number" id="age" name="age">
+        <button id="confirmBtn">Confirm</button>
+    </div>
+    <form id="user">
+        <h3>Конвертор ваги з кг в фунти</h3>
+        <hr>
+        <label for="userName">Enter your name</label>
+        <input type="text" id="userName" name="userName" required>
+        <label for="userSurname">Enter your surname</label>
+        <input type="text" id="userSurname" name="userSurname" required>
+        <label for="userAge">Enter your age</label>
+        <input type="number" id="userAge" name="userAge" required>
+        <button type="submit">Send</button>
+    </form>
+    <p id="number">0</p>
+    <div class="converter">
+        <h3>Конвертор ваги з кг в фунти</h3>
+        <hr>
+        <label for="weightKg"> Кг</label>
+        <input type="number" id="weightKg">
+        <label for="weightPounds"> Фунт</label>
+        <input type="number" id="weightPounds" readonly>
+    </div>
+    <div class="wrapper">
+        <form id="userTableForm">
+            <h3>Формування таблички</h3>
+            <hr>
+            <label for="rowNumb"> Кількість рядків</label>
+            <input type="number" id="rowNumb" name="rowNumb" required>
+            <label for="columnNumb"> Кількість стовпців</label>
+            <input type="number" id="columnNumb" name="columnNumb" required>
+            <label for="description"> Вміст ячеєк </label>
+            <input type="text" id="description" name="description" required>
+            <button type="submit">Click me</button>
+        </form>
+        <table id="userTable"></table>
+    </div>
+
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
