@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    padding: 10px;
+    background-color: #9fb9df;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background: #e2e4e6;
+}
+
+.product {
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.product img {
+    width: 100px;
+}
