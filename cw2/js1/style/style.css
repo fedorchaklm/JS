@@ -39,6 +39,7 @@ input {
 }
 
 #listContainer {
+    padding: 5px;
     border: 1px solid grey;
     min-height: 45vh;
     width: 60vw;
