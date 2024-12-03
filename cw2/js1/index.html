@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic JavaScript and HTML Test</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style-0-768.css">
+</head>
+<body>
+<div class="app">
+    <h2>Test</h2>
+    <div class="input-wrap">
+        <div >
+            <label for="NameValuePair">Name/Value Pair</label>
+            <input type="text" id="NameValuePair" name="NameValuePair" required>
+            <div id="error"></div>
+        </div>
+        <button id="addBtn">Add</button>
+    </div>
+    <div>
+        <h3>Name/Value Pair List</h3>
+        <div class="list-wrap">
+            <div id="listContainer"></div>
+            <div class="btns-wrap">
+                <button >Sort by Name</button>
+                <button>Sort by Value</button>
+                <button>Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
